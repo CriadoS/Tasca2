@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 public class Venda {
 	
-	private ArrayList<Producte> productes = new ArrayList<Producte>();
+	private ArrayList<Producte> productes;
 	private float preuTotal;
 	
 	public Venda(ArrayList<Producte> productes) {
